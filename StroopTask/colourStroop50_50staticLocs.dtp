@@ -1,0 +1,96 @@
+<?xml version="1.0" ?>
+<task_protocol>
+	<analog_inputs>[]</analog_inputs>
+	<analog_inputs_row_count>0</analog_inputs_row_count>
+	<binary_data>[]</binary_data>
+	<binary_data_defs>[]</binary_data_defs>
+	<blocktable>[['1-24', 2, '', True, 2]]</blocktable>
+	<blocktable_row_count>50</blocktable_row_count>
+	<code>'STR'</code>
+	<data_rate>1000</data_rate>
+	<description>'Stroop task with four possible colours. The location of the responses are static. Task needs TP#1-24 run to get all combinations of text and colours for the Stroop Target'</description>
+	<feedback_mode>1</feedback_mode>
+	<gaze_feedback_mode>0</gaze_feedback_mode>
+	<instructions>''</instructions>
+	<instructions_default>''</instructions_default>
+	<last_modified>'2026-01-16  04:09 PM'</last_modified>
+	<loadtable>[[0.0, -18.0]]</loadtable>
+	<loadtable_defs>[['Load X', 'float'], ['Load Y', 'float']]</loadtable_defs>
+	<loadtable_row_count>20</loadtable_row_count>
+	<name>'colourStroop50_50staticLocs'</name>
+	<parent>''</parent>
+	<pause_behaviour>0</pause_behaviour>
+	<random_seed>1</random_seed>
+	<save_binary_data>False</save_binary_data>
+	<targetfor_ep>['Handle', ['Active', 0, -30], True]</targetfor_ep>
+	<targetfor_exo>('Fingertip', ['Active', 30, 90], True)</targetfor_exo>
+	<targettable>[[-15.0, 2.0, 5.0, 7.0, 6.0, '255000000', '004130255', '000225000', '236236000', '000000255', '', 6.0, 0.0], 
+		[-15.0, -15.0, 2.0, 0.0, 0.0, '255255255', '000000000', '000000000', '000000000', '000000000', '', 0.0, 0.2], 
+		[-15.0, -18.0, 0.0, 0.0, 0.0, '255255255', '255255255', '255255255', '255255255', '0', '', 2.0, 0.5], 
+		[-23.5, -10.0, 3.0, 0.0, 0.0, '255255255', '255255255', '0', '0', '0', 'Red', 1.5, 0.2], 
+		[-18.25, -6.0, 3.0, 0.0, 0.0, '255255255', '255255255', '0', '0', '0', 'Blue', 1.5, 0.2], 
+		[-11.75, -6.0, 3.0, 0.0, 0.0, '255255255', '255255255', '0', '0', '0', 'Green', 1.5, 0.2], 
+		[-6.5, -10.0, 3.0, 0.0, 0.0, '255255255', '255255255', '0', '0', '0', 'Yellow', 1.5, 0.2], 
+		[-15.0, 5.0, 0.0, 45.0, 20.0, 'stroopinstructimage.jpg', '000000000', '000000000', '000000000', '0', '', 0.0, 0.0], 
+		[-15.0, 2.0, 0.0, 3.0, 3.0, '255128064', '0', '0', '0', '0', '', 0.0, 0.0], 
+		[0.0, 0.0, 0.0, 0.0, 0.0, '0', '0', '0', '0', '0', 'Red', 0.0, 0.0], 
+		[0.0, 0.0, 0.0, 0.0, 0.0, '0', '0', '0', '0', '0', 'Blue', 0.0, 0.0], 
+		[0.0, 0.0, 0.0, 0.0, 0.0, '0', '0', '0', '0', '0', 'Green', 0.0, 0.0], 
+		[0.0, 0.0, 0.0, 0.0, 0.0, '0', '0', '0', '0', '0', 'Yellow', 0.0, 0.0], 
+		[0.0, 0.0, 0.0, 0.0, 0.0, '0', '0', '0', '0', '0', 'XXX', 0.0, 0.0], 
+		[0.0, 0.0, 0.0, 0.0, 0.0, '0', '0', '0', '0', '0', 'XXXX', 0.0, 0.0], 
+		[0.0, 0.0, 0.0, 0.0, 0.0, '0', '0', '0', '0', '0', 'XXXXX', 0.0, 0.0], 
+		[0.0, 0.0, 0.0, 0.0, 0.0, '0', '0', '0', '0', '0', 'XXXXXX', 0.0, 0.0], 
+		[0.0, 0.0, 0.0, 0.0, 0.0, '0', '0', '0', '0', '0', 'Bat', 0.0, 0.0], 
+		[0.0, 0.0, 0.0, 0.0, 0.0, '0', '0', '0', '0', '0', 'Tree', 0.0, 0.0], 
+		[0.0, 0.0, 0.0, 0.0, 0.0, '0', '0', '0', '0', '0', 'Goose', 0.0, 0.0], 
+		[0.0, 0.0, 0.0, 0.0, 0.0, '000000000', '000000000', '000000000', '000000000', '000000000', 'Spider', 0.0, 0.0]]</targettable>
+	<targettable_defs>[['X', 'float'], ['Y', 'float'], ['Visual Radius', 'float'], ['X Length', 'float'], ['Y Length', 'float'], ['Colour1', 'colour'], ['Colour2', 'colour'], ['Colour3', 'colour'], ['Colour4', 'colour'], ['Colour5', 'colour'], ['Text', 'label'], ['Text Height', 'float'], ['Stroke Width', 'float']]</targettable_defs>
+	<targettable_row_count>64</targettable_row_count>
+	<tasklevelparams>[['FIX_DELAY', '250'], 
+		['FIX_ON_TIME', '250'], 
+		['FIX_RAND', '250'], 
+		['FLICKER_ON', '0.00'], 
+		['FLICKER_TIME', '350.00'], 
+		['POSTRESP_DELAY', '500.00'], 
+		['RAMP_DURATION', '50.00'], 
+		['RAND_TEXTLOC', '0.00'], 
+		['REACH_DELAY', '500.00'], 
+		['REACH_RAND', '500.00'], 
+		['REACH_TO', '3000.00'], 
+		['STROOP_USE', '1.00'], 
+		['TEXTCIRCLE_MOVE', '0.00'], 
+		['TEXTSHOW_DELAY', '1.00']]</tasklevelparams>
+	<tasklevelparams_defs>[['REACH_DELAY', 'float'], ['TEXTSHOW_DELAY', 'float'], ['POSTRESP_DELAY', 'float'], ['RAMP_DURATION', 'float'], ['STROOP_USE', 'float'], ['REACH_RAND', 'float'], ['REACH_TO', 'float'], ['RAND_TEXTLOC', 'float'], ['FLICKER_ON', 'float'], ['FLICKER_TIME', 'float'], ['FIX_ON_TIME', 'float'], ['FIX_DELAY', 'float'], ['FIX_RAND', 'float'], ['TEXTCIRCLE_MOVE', 'float']]</tasklevelparams_defs>
+	<tasklevelparams_row_count>14</tasklevelparams_row_count>
+	<tptable>[[1, 2, 3, 9, 4, 5, 6, 7, 8, 1], 
+		[1, 2, 3, 9, 4, 5, 6, 7, 8, 1], 
+		[1, 2, 3, 9, 4, 5, 6, 7, 8, 1], 
+		[1, 2, 3, 9, 4, 5, 6, 7, 8, 1], 
+		[1, 2, 3, 9, 4, 5, 6, 7, 8, 1], 
+		[1, 2, 3, 9, 4, 5, 6, 7, 8, 1], 
+		[1, 2, 3, 9, 4, 5, 6, 7, 8, 1], 
+		[1, 2, 3, 9, 4, 5, 6, 7, 8, 1], 
+		[1, 2, 3, 9, 4, 5, 6, 7, 8, 1], 
+		[1, 2, 3, 9, 4, 5, 6, 7, 8, 1], 
+		[1, 2, 3, 9, 4, 5, 6, 7, 8, 1], 
+		[1, 2, 3, 9, 4, 5, 6, 7, 8, 1], 
+		[1, 2, 3, 9, 4, 5, 6, 7, 8, 1], 
+		[1, 2, 3, 9, 4, 5, 6, 7, 8, 1], 
+		[1, 2, 3, 9, 4, 5, 6, 7, 8, 1], 
+		[1, 2, 3, 9, 4, 5, 6, 7, 8, 1], 
+		[1, 2, 3, 9, 4, 5, 6, 7, 8, 1], 
+		[1, 2, 3, 9, 4, 5, 6, 7, 8, 1], 
+		[1, 2, 3, 9, 4, 5, 6, 7, 8, 1], 
+		[1, 2, 3, 9, 4, 5, 6, 7, 8, 1], 
+		[1, 2, 3, 9, 4, 5, 6, 7, 8, 1], 
+		[1, 2, 3, 9, 4, 5, 6, 7, 8, 1], 
+		[1, 2, 3, 9, 4, 5, 6, 7, 8, 1], 
+		[1, 2, 3, 9, 4, 5, 6, 7, 8, 1]]</tptable>
+	<tptable_defs>[['Stroop Target', 'target'], ['Start Target', 'target'], ['Result Target', 'target'], ['Fixation Target', 'target'], ['Text1 Target', 'target'], ['Text2 Target', 'target'], ['Text3 Target', 'target'], ['Text4 Target', 'target'], ['Instruction Image', 'target'], ['Pick Load Row', 'load']]</tptable_defs>
+	<tptable_row_count>100</tptable_row_count>
+	<use_repeat_trial_flag>1</use_repeat_trial_flag>
+	<version>3.9</version>
+	<version_tuple>(3, 10)</version_tuple>
+	<video>''</video>
+</task_protocol>
